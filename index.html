@@ -74,7 +74,6 @@
                     <button id="readMore" class="readMore">LEIA MAIS...</button>
                 </div>                
             <button class="cargMore">Carregar Mais</button>
-            </section>
             
             <section id="games" class="games">
                 <h1 class="title-jogos">Jogos</h1>
@@ -105,55 +104,59 @@
                     </div>
                 </div>              
             </section>
-
-            <section id="formulario">
-                <h2>Faça sua inscrição</h2>
-                <form action="inscription">
-                    <div>
-                        <input type="text" placeholder="Nome completo" name="name">                        
-                    </div>
-                    <div>
-                        <input type="email" placeholder="Email" name="email">
-                    </div>
-                    <div>
-                        <div><label for="ctrl-preference">Qual a sua plataforma preferida?</label></div>
-                        <div id="crtl-prefence">
-                            <div>
-                                <input type="radio" name="preference" id="preference1">
-                                <label for="preference1">Pc</label>
+            <h2 class="title-forms">Faça sua inscrição</h2>
+            <section id="formulario" class="form">                
+                    <div class="item-form">
+                        <form action="inscription" class="inscription">
+                            <div class="form-input">
+                                <div class="placeholder"><input type="text" placeholder="Nome completo" name="name"></div>                        
+                            </div>
+                            <div class="form-input">
+                                <div class="placeholder"><input type="email" placeholder="Email" name="email"></div>
                             </div>
                             <div>
-                                <input type="radio" name="preference" id="preference2">
-                                <label for="preference2">Xbox</label>
+                                <div class="for-label"><label for="ctrl-preference">Qual a sua plataforma preferida?</label></div>
+                                <div id="crtl-preference" class="crtl-preference">
+                                    <div>
+                                        <input type="radio" name="preference" id="preference1" style="width: 18px; height: 18px">
+                                        <label for="preference1">Pc</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="preference" id="preference2" style="width: 18px; height: 18px">
+                                        <label for="preference2">Xbox</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="preference" id="preference3" style="width: 18px; height: 18px">
+                                        <label for="preference3">Playstation</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <input type="radio" name="preference" id="preference3">
-                                <label for="preference2">Playstation</label>
+                            <div>                    
+                            <div id="ctrl-playlist" class="crtl-preference-list">
+                                <div>
+                                    <input type="checkbox" name="playlist" id="ctrl-playlist-yes" style="width: 18px; height: 18px">
+                                    <label for="ctrl-playlist-yes">Desejo receber novidades.</label>
+                                </div>                        
+                            </div>  
                             </div>
-                        </div>
+                            <button class="botton-enviar">Enviar</button>
+                            <button class="botton-reset">Limpar</button>
+                        </form>                        
                     </div>
-                    <div>                    
-                    <div id="ctrl-playlist">
-                        <div>
-                            <input type="checkbox" name="playlist" id="ctrl-playlist-yes">
-                            <label for="ctrl-playlist-yes"></label>Desejo receber novidades.
-                        </div>                        
-                    </div>  
-                    </div>
-                </form>
+                        
             </section>
         </main>
 
         <footer>
             <div>
-                <div id="centro">
-                    <div>
-                        <span>@dsplaygames/dsplaygames</span>    
+                <div id="center" class="center">
+                    <div class="footer-center">
+                        <span>@dsplaygames<br>/dsplaygames</span>    
                     </div>
-                    <div>
+                    <div class="footer-center">
                         <span>DS Play Games Ltda. Todos direitos reservados</span>
                     </div>                    
-                    <div>
+                    <div class="footer-center">
                         <span>Política de privacidade Termos de uso</span>
                     </div>                    
                 </div>

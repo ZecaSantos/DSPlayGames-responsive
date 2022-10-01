@@ -13,15 +13,17 @@
             <div>
                 <span id="logo">DSPlayGames</span>
             </div>
-            <div>
-                <ul class="nav-itens">
-                    <li><a href="#conteudo1">Noticias</a></li>
-                    <li><a href="#games">Jogos</a></li>
-                    <li><a href="#formulario">Inscreva-se</a></li>
-                </ul>
-            </div>  
-            <div>
-                <img src="/img/Profile_Image.svg" alt="avatar">    
+            <div class="nav-itens-img">
+                <div>
+                    <ul class="nav-itens">
+                        <li><a href="#conteudo1">Noticias</a></li>
+                        <li><a href="#games">Jogos</a></li>
+                        <li><a href="#formulario">Inscreva-se</a></li>
+                    </ul>
+                </div>              
+                <div>
+                    <img src="/img/Profile_Image.svg" alt="avatar">    
+                </div>
             </div>           
         </nav>     
     </header>
@@ -88,7 +90,7 @@
                     </div>
                     <div id="card2" class="cards-minious">
                         <div id="img"><img src="/img/game.png" alt="Jogo1"></div>
-                        <div id="description">
+                        <div id="description" class="description">
                             <h2>Horizon Forbidden West</h2>
                             <p class="description"><span class="destak">De</span> Sony Interactive Entertainment</p>
                             <h1>9.7</h1>
@@ -96,9 +98,9 @@
                     </div>
                     <div id="card3" class="cards-minious">
                         <div id="img"><img src="/img/game.png" alt="Jogo1"></div>
-                        <div id="description">
+                        <div id="description" class="description">
                             <h2>Horizon Forbidden West</h2>
-                            <p class="description"><span class="destak">De</span>  Sony Interactive Entertainment</p>
+                            <p><span class="destak">De</span>  Sony Interactive Entertainment</p>
                             <h1>9.7</h1>
                         </div>
                     </div>
@@ -114,7 +116,7 @@
                             <div class="form-input">
                                 <div class="placeholder"><input type="email" placeholder="Email" name="email"></div>
                             </div>
-                            <div>
+                            <div class="platform">
                                 <div class="for-label"><label for="ctrl-preference">Qual a sua plataforma preferida?</label></div>
                                 <div id="crtl-preference" class="crtl-preference">
                                     <div>
@@ -132,15 +134,17 @@
                                 </div>
                             </div>
                             <div>                    
-                            <div id="ctrl-playlist" class="crtl-preference-list">
+                            <div id="ctrl-playlist" class="crtl-preference-list platform">
                                 <div>
                                     <input type="checkbox" name="playlist" id="ctrl-playlist-yes" style="width: 18px; height: 18px">
                                     <label for="ctrl-playlist-yes">Desejo receber novidades.</label>
                                 </div>                        
                             </div>  
                             </div>
-                            <button class="botton-enviar">Enviar</button>
-                            <button class="botton-reset">Limpar</button>
+                            <div class="botton">
+                                <button class="botton-enviar">Enviar</button>
+                                <button class="botton-reset">Limpar</button>
+                            </div>
                         </form>                        
                     </div>
                         

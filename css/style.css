@@ -370,7 +370,7 @@ footer {
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-center {
+.center_footer {
     margin-top: 37px;
 }
 
@@ -620,6 +620,8 @@ footer {
 
     .center {
         width: 100%;
+        max-width: 768px;
+        padding: 42.5px 0 42.5px 0;
         font-family: Poppins;
         font-size: 14px;
         font-weight: 400;
@@ -628,24 +630,280 @@ footer {
         color: rgba(255, 255, 255, 1);
         display: flex;
         flex-direction: row;
-        
-        
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }        
     
-    .footer-center {
-        width: 330px;
+    .center_footer {
+        width: 330px;                
+    }
+
+
+}
+
+@media(min-width: 990px) {
+
+    .nav-itens {
         display: flex;
-       
+        flex-direction: row;
         
     }
-    
-  
-    
-    
+
+    .nav-itens li {
+        margin: 0 29px 0 0 ;
+        list-style-type: none;
+        
+        
+    }
+
+    .nav-itens a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        font-family: poppins, sans-serif;
+    }
+
+    .nav1 {
+        width: 100%;
+        max-width: 990px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nav-itens-img {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .noticia {
+        width: 100%;
+        max-width: 990px;
+        padding: 16px 13px 13px 13px;
+        border-radius: 8px;
+        margin: 40px 0  28px 0 ;
+        background-color: #E5E5E5;
+    }
+
+    .games {
+        width: 100%;
+        max-width: 990px;
+        display: flex;
+        flex-direction: column;        
+        background: rgba(240, 240, 240, 1);
+        padding: 0 0 10px 0;
+        border-radius: 8px;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 45px 0 30px 0;
+        border-radius: 8px;
+        background: rgba(240, 240, 240, 1);
+     }
+
+    .cards-minious {
+        width: 195px; 
+        height: 195px; 
+        padding-bottom: 30px;    
+        margin: 0 10px 27px 10px;        
+        border-radius: 8px;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+        background-color: #fff;
+    }
+
+    .cards-minious img {
+        width: 195px;
+        border-radius: 8px 8px 0 0;
+        
+    }
+
    
+    .cards-minious h2 {
+        font-family: poppins, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 27px;
+        text-align: center;
+        color: #797979;
+        margin-top: 20px;
+    }
 
+    .cards-minious h1 {
+        font-family: poppins, sans-serif;
+        color: #38AF90;
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+        margin: 7px 0 0px 0;
+        padding: 5px 0 0px 0;
+    }
 
+    .title-forms {
+        width: 100%;
+        height: 36px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 0 0 10px 0;
+        font-family: poppins, sans-serif;
+        font-size: 24;
+        font-weight: bold;
+        color: #797979;
+        text-align: center;
+    }
 
+    .description h1 {
+        margin: 0;
+        font-size: 24px;
+    }
 
+    .description p {
+        margin: 0;
+        font-size: 8px;
+        padding: 0 10px 0 10px;
+    }
+
+    .description h2 {
+        font-size: 14px;
+        padding: 0 2px 0 2px;
+    }
+
+    .form {
+        width: 790px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 52px 12px 0 8px;
+        background: rgba(240, 240, 240, 1);
+        margin: 0 12px 40px 8px;
+        border-radius: 8px;
+    
+    }
+
+    .item-form {
+        width: 790px;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .form-input {
+        width: 642px;    
+        height: 50px;    
+        margin-bottom: 20px;
+        
+    }
+
+    .form-input input {
+        width: 620px;
+        border: 1px solid rgba(121, 121, 121, 1);
+        border-radius: 4px;
+        padding-left: 22px;
+        height: 50px;
+    }
+
+    .platform {
+        width: 642px;
+    }
+
+    .crtl-preference-list {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(121, 121, 121, 1);
+        margin: 30px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        width: 642px;
+        padding: 0 0 0 10px;
+    }
+
+    .inscription {
+        width: 612px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botton-enviar {
+        background-color: #DD7E92;
+        font-family: poppins, sans-serif;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        font-weight: bold;
+        color: #ffff;
+        border: none;
+        border-radius: 8px;
+        margin: 47px 0 20px 0;
+        padding: 20px 56px 20px 56px;
+        width: 244px;
+        height: 67px;
+    }
+    
+    .botton-reset {
+        background-color:#ffff;;
+        font-family: poppins, sans-serif;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        font-weight: bold;
+        color:  #DD7E92;
+        border: 1px solid rgba(221, 126, 146, 1);
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: 0 0 33px 0;
+        padding: 19px 56px 19px 56px;
+        width: 244px;
+        height: 67px;
+    }
+
+    .botton {
+        width: 642px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-self: auto;
+        align-items: baseline;
+    }
+
+    footer {
+        width: 100%;
+        background-color: rgba(56, 56, 56, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 28px 0 30px 0 ;
+    }
+
+    .center {
+        width: 100%;
+        max-width: 100%;
+        padding: 42.5px 0 42.5px 0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;        
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }        
+    
+    .center_footer {
+        width: 330px;                
+    }
 
 
 }
